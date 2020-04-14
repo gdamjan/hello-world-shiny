@@ -37,3 +37,4 @@ Rscript app.R
 ### Advanced:
 - multiple shiny servers for concurency
 - nginx cacheing https://www.nginx.com/blog/nginx-caching-guide/
+- maybe https://www.shinyproxy.io/deployment/
