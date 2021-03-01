@@ -34,6 +34,13 @@ Rscript app.R
 8) nginx + certbot -d …your-domain…
 
 
+## Docker
+
+```
+docker build -t hello-world-shiny .
+docker run -p 8080:8080 -it hello-world-shiny
+```
+
 ### Advanced:
 - multiple shiny servers for concurency
 - nginx cacheing https://www.nginx.com/blog/nginx-caching-guide/
