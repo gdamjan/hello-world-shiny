@@ -30,7 +30,7 @@ Rscript -e "shiny::runApp('./src/', port=8080, host='0.0.0.0')"
 5) https://github.com/rstudio/shiny-server#installing
 6) upload your app in `/srv/shiny-server/hello-world-shiny`
 7) setup shiny server for single app https://docs.rstudio.com/shiny-server/#host-a-single-application
-8) nginx `proxy_pass http://127.0.0.1:3838;`
+8) nginx `proxy_pass http://127.0.0.1:8080;`
 8) nginx + certbot -d …your-domain…
 
 
