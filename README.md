@@ -18,7 +18,7 @@ Rscript -e 'install.packages("shiny", repos="https://cran.rstudio.com/")'
 
 Run to test
 ```
-Rscript app.R
+Rscript -e "shiny::runApp('./src/', port=8080, host='0.0.0.0')"
 ```
 
 ## From 0 to hero:

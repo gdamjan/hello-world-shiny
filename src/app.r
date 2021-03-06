@@ -30,5 +30,4 @@ server <- function(input, output, session) {
   })
 }
 
-app <- shinyApp(ui, server, uiPattern = "/.*")
-runApp(app, port=8080, host="0.0.0.0")
+shinyApp(ui, server)
